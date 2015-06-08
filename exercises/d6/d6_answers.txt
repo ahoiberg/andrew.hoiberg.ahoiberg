@@ -1,0 +1,21 @@
+E1
+
+1. git init initializes a new Git repository
+2. git add starts tracking files, git commits places the file into the "history" where backups are stored. see: http://gitref.org/basic/ also see: http://gitready.com/beginner/2009/01/18/the-staging-area.html
+3. git stage prepares for the commit, git commit actually commits
+	-side comment-why is stage necessary/useful?
+4. Shortcuts to add and commit at the same time.
+	-use Desktop app-everything is committed by default.
+	-git commit -am "commit message"
+	-git add -A(Files) && git commit (all in one line)
+5. To unstage, type git reset HEAD -- path/to/file. to uncommit, find the commit you're looking for with git log, find that commit, and type git checkout commit(typically looks like 0d1d7fc32...)
+	-to revert a particular file, type git checkout commit path/to/file
+6. Commit messages help keep track of what changes between commits, and can clarify what a programmer was trying to fix when things went wrong.
+7. Type git checkout commit(code that looks like 0d1d7fc32...) to revert to a previous version.
+8. Type escape, followed by :q (:q! to quit without saving)
+
+E2
+1. GitHub is a network that will store repositories created and pushed (at least fundamentally) using git, a command line tool to track and backup changes to files-typically code.
+2. GitHub is cool because it lets millions of people collaborate on code
+3. Git push moves code up to GitHub.
+4. Git pull takes code down from GitHub. Git fetch does this in git, git merge combines two or more directories.
