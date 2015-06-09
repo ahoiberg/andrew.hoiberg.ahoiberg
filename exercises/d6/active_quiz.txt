@@ -1,0 +1,6 @@
+1. Databases are formal ways to store information.
+2. Database tables have vertical columns to store information. It has a preset number of columns, but unlimited rows.
+3. Done in class. (Create a Graph)
+4. Resources are unique types of data and models visualize their relationships. Used to understand what the app is trying to do.
+5. Active Record models information in Rails.
+6. Active Record is the Rails Data table used to track various resources.

@@ -1,0 +1,39 @@
+Creating a Model of Amazon
+View:
+	Login/Signup
+	home
+	cart
+	settings
+	Profile
+	Confirmation
+Amazon has:
+	Items
+	Buyers
+	Sellers
+	Account Info (address, Credit Card, etc.)
+	Tracking Info 
+	Shopping Cart
+	Departments
+	Categories
+We could want to store
+	Items in a cart
+	Items in a category/Department
+	Payment Information
+	Shipping Information
+	Prime eligible information
+	Items that have been purchased
+Users, Items, Payment Info, Shipping Info, Categories can all be created
+All can be read?
+Payment, Shipping, Categories can be updated.
+All can be deleted.
+Users have name, payment/shipping info
+cart has items
+user has cart
+Items have:
+prices
+categories
+descriptions
+sellers
+For now, its probably best to create a user, an item, and a shopping cart.
+It may be better to have an item id that is used across categories, carts, etc.
+I'm also not sure how to integrate carts with users, etc.

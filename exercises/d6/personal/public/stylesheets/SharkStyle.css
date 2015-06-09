@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+	font-family: oswald;
+	color: white;
+	background-image: url("http://i.imgur.com/BqLameF.jpg"); 
+	background-size: cover;
+	background-position: center;
+}
+div{
+	height: 200px;
+	width: 200px;
+	background: rgba(96,96,96,.6);
+	/* There are "redundant divs" in the html.
+	i.e. jobs within left. It causes some of the color to appear
+	off */
+}
+.left{
+	position: absolute;
+	left: 200px;
+}
+.right {
+	position: absolute;
+	right: 200px;
+}
+.projects{
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 10px;
+	width: 20%;
+}
