@@ -1,0 +1,16 @@
+<h1>Welcome to the Petitions Rails app!</h1>
+
+<p>Petitions are listed below, starting with the most recent.</p>
+
+<ol>
+	<% @petitions.each do |petition| %>
+		<li><%= petition["title"] %></li>
+		<ul>
+			<li><%= petition["body"] %></li>
+			<li><%= "Signatures: #{petition["signatureCount"]}" %></li>
+			<li><%=  "Deadline: #{Time.at(petition["deadline"]).to_datetime.strftime("%D")}" %></li>
+			<br>
+		</ul>
+	<% end %>
+
+</ol>

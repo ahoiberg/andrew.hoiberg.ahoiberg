@@ -1,0 +1,2 @@
+rails g migration Tweets body:string
+rails generate migration AddFaveCountToTweets fave_count:integer

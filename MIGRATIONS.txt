@@ -1,0 +1,7 @@
+rails g migration create_posts
+create script in file in db
+rake db:migrate.
+
+rails g migration "create_user" (This is the actual thing. the quotes are what fucked me up)
+
+

@@ -1,0 +1,9 @@
+<h1>Reddit!</h1>
+
+<%= link_to '+ New Post', posts_new_path %>
+
+<ol>
+<% @posts.each do |post| %>
+  <li><%= post.title %><%= " #{post.body}" %></li>
+<% end %>
+</ol>
