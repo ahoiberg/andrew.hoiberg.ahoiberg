@@ -1,0 +1,14 @@
+<div class="user_profile">
+	<div class="username"><%= @user.username %></div>
+
+</div>
+
+<table class="post_list">
+<% @posts.each do |post| %>
+  <tr>
+    <td>
+        <%= post.body %>
+    </td>
+  </tr>
+<% end %>
+</table>
