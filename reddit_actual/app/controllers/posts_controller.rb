@@ -9,6 +9,7 @@ class PostsController < ApplicationController
 
 	def create
 		@post = Post.new(params["post"].permit(:title, :body, :user_id, :score))
+		
 		@post.save
 
 		redirect_to '/posts'

@@ -1,0 +1,8 @@
+The issue:
+South Africa has a very high college attrition rate-many people who start college here don't finish. (see: http://www.unisa.ac.za/news/index.php/2014/07/an-urgent-need-for-curriculum-reform-in-higher-education/) 
+
+Our Solution:
+ One possible solution would be to create an educational app to easily promote knowledge and reinforce academic concepts. However, rather than creating online courseware, which has limited retention rates even in places like the United States, it would be better to create a game that happens to coincide with educational concepts taught in African universities-something more like Trivia Crack or LeapFrog-the educational game(see: https://en.wikipedia.org/wiki/LeapFrog_Enterprises). Create a fun, engaging game that *just* happens to reinforce educational concepts.
+ 
+Basic implementation:
+Users could play in categories across a variety of fields, but also narrow their categories to their specific fields of study. Start out with general categories across all academic areas: math, science, history, and then narrow down to subfields-for math, for example, have categories of algebra, analysis, geometry, and logic. This allows the app to appeal to a wider demographic of users, and becomes something students could use throughout their college careers.
