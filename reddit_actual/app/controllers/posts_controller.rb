@@ -8,7 +8,9 @@ class PostsController < ApplicationController
 	end
 
 	def create
-		@post = Post.new(params["post"].permit(:title, :body, :user_id, :score))
+		@post = Post.new(params["post"].permit(:title, :body))
+		@post.user = User.last
+		@post.score = 0
 		
 		@post.save
 
