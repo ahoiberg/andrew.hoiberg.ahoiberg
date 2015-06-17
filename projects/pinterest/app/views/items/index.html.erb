@@ -1,9 +1,12 @@
 <h1>Items:</h1>
-<%= link_to '+ New Item', items_new_path %>
+<%= link_to '+ New Item', new_item_path %>
+
+<%= render :partial => 'form', :locals => {:item => @item} %>
+
 <ol>
 	<% @items.each do |item| %>
 	<li>
-		<%= item.title %>
+		<%= link_to(item.user.username, "/users/#{item.user.id}") %><%= item.title %>
 	</li>
 	<%end%>
 </ol>
